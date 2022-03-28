@@ -1,5 +1,11 @@
-## Install
+## How to run
 
+This is the second individual project for the cloud class. 
+
+Click on 'Actions' (below link) and try out 'build-container'. 
+https://github.com/nogibjj/container-revolution-devops-microservices/actions/runs/2053868895
+
+## Install
 * Create a virtualenv and source
 * run `make install`
 
@@ -11,15 +17,8 @@
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-### Kubernetes 
-
 #### Local Deploy and Testing
 
-
-#### AWS Deploy Options
-
-1. EKS
-2. Fargate (TBD...not ready yet)
 
 ### Reference
 
