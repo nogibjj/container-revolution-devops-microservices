@@ -1,32 +1,26 @@
-[![CircleCI](https://circleci.com/gh/noahgift/container-revolution-devops-microservices.svg?style=svg)](https://circleci.com/gh/noahgift/container-revolution-devops-microservices)
+## Install
 
-# Container Revolution
+* Create a virtualenv and source
+* run `make install`
 
-O'Reilly OLT(Online Live Training) on  DevOps course on microservices
+### Running app
 
-## Proposed Kubernetes Example Steps
+#### Three modes:
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask scikit-learn app in Container
-* Run via kubectl
-* Configure cluster and Deploy
-* Loadtest and verify auto-scale
+1. Standalone:  `python app.py`
+2. Run in Docker:  `./run_docker.sh`
+3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-## Boston Housing Dataset Pickled model Colab
+### Kubernetes 
 
-https://github.com/noahgift/boston_housing_pickle
-
-## Diagram & Steps
-
-1.  Create project:  Dockerfile, app, serialized/pickled model
-2.  Build and test
-3.  Push to Dockerhub
-4.  Pull it onto AWS Cloud 9
-5.  Predict via pulled container
-6.  Extend and push to Amazon ECR
-7.  Pull onto new AWS Cloud 9 environment via ECR
-8.  Pull onto GCP Cloud
+#### Local Deploy and Testing
 
 
-[![image](https://user-images.githubusercontent.com/58792/65437053-1aeb5d00-ddf1-11e9-94ab-099fc7029e28.png)]
+#### AWS Deploy Options
+
+1. EKS
+2. Fargate (TBD...not ready yet)
+
+### Reference
+
+* https://aws.amazon.com/eks/faqs/
